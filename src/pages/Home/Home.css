@@ -1,0 +1,38 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+    /* body{
+      
+      font-family: 'Noto Serif', serif;
+      
+    } */
+
+.Home_container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 2px 30px;
+  margin-top: 20px;
+}
+
+.Table img {
+  width: 40px;
+  height: 20px;
+}
+.Title__header h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cart__button Button {
+  background-color: #6f00a3;
+}
+.sort{
+  display: flex;
+  flex-direction: row;
+ margin-bottom: -5px;
+ margin-left: 5px;
+}
+.sortPop{
+  display: flex;
+  flex-direction: row;
+ margin-bottom: -5px;
+ margin-left: 5px;
+}

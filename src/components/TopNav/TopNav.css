@@ -1,0 +1,136 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+  
+  font-family: 'Noto Serif', serif;
+}
+
+
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  width: 100%;
+  height: 80px;
+  background-color: #6f00a3;
+  align-content: space-evenly;
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  
+    place-items: center;
+}
+  
+.content h1 a {
+  color:#fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 400;
+  /* margin-right: -50% ; */
+  font-size: 30px;
+ 
+}
+.map__png{
+  margin-left: 30px;
+} 
+  
+
+
+  .brand {
+    cursor: pointer;
+    justify-self: right ;
+    margin-right: -5%;
+  }
+
+  .nav__items{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* margin-left: 600px; */
+  /* row-gap: 10px; */
+    
+  }
+
+.sidebar__searchContainer > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+.sidebar__searchContainer {
+  /* margin: 0 auto; */
+  margin-right: 400px;
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px;
+}
+
+
+  .nav__items__cart{
+ margin-left: 150px;
+  } 
+  
+
+
+.map__png{
+    width: 40px;
+    height: 40px; 
+    
+}
+.map__png {
+  animation: rotation 8s infinite linear;
+}
+DropDown h4{
+  padding: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    display: -moz-grid-group;
+  }
+    .content {
+        display: -moz-grid-group;
+      }
+      .menu {
+       display: -moz-grid-group;
+      }
+       .sidebar__searchContainer{
+       display: -moz-grid-group;
+      width: 100px;
+    }
+    
+    .nav__items{
+      display: -moz-grid-group;
+    }
+   
+  }
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

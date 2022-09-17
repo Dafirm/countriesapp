@@ -1,0 +1,19 @@
+#countries-cart img{
+    width: 40px;
+    height: 20px;
+    
+}
+.country_added{
+    display: grid;
+    column-gap: 10px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cart__Button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+
+}
